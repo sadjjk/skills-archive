@@ -10,6 +10,7 @@
 | [explain-clearly](./explain-clearly/) | 表达写作 | 解释含义与原理：保留原意、条件与不确定性，只补理解所需的说明，支持配图与 HTML 交互解释 |
 | [feishu-group-notify](./feishu-group-notify/) | 消息通知 | 飞书自建机器人群通知：查群、发消息、建群，支持多 bot 管理，凭据本地加密存储 |
 | [ppt-atelier](./ppt-atelier/) | 视觉设计 | 有审美的 PPT 设计 skill：内置六种风格（杂志/瑞士海报/画廊/品牌手册/新中式/人物专访），交付可编辑 PPTX + HTML 演示 + 逐页预览图 |
+| [project-code-smell](./project-code-smell/) | 代码质量 | 分析代码库找出坏味道、反模式、复杂度热点和维护负担，每条发现分删除/收窄/重构/保留四档结论 |
 | [ui-interaction-polish](./ui-interaction-polish/) | 前端设计 | 改善已有网页和应用组件的交互质感：悬停、按下、键盘焦点等微交互打磨，保留布局与功能 |
 
 ## 用法
