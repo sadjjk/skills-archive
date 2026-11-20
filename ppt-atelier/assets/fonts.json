@@ -1,0 +1,119 @@
+{
+  "_comment": "字体角色表。plan 里的 font 可以写角色名（serif-zh 等），也可以写商业字体名，后者通过 aliases 映射到角色。profile 决定导出 PPTX 时写入的字体名：mac/win 用系统自带字体，original 写入商业字体名（需要本机已安装且有授权）。",
+  "roles": {
+    "serif-zh": {
+      "desc": "中文主标题：宋体/标宋",
+      "css": ["FZShuSong-Z01", "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", "SimSun", "serif"],
+      "pptx": {"mac": "Songti SC", "win": "SimSun", "original": "方正书宋简体"}
+    },
+    "sans-zh": {
+      "desc": "中文正文：细黑/苹方",
+      "css": ["FZLanTingHei-L-GBK", "PingFang SC", "Lantinghei SC", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei UI", "sans-serif"],
+      "weight": 300,
+      "pptx": {"mac": "PingFang SC", "win": "Microsoft YaHei UI Light", "original": "方正兰亭细黑_GBK_M"}
+    },
+    "script-zh": {
+      "desc": "中文手写点缀：行书/行楷",
+      "css": ["全新硬笔行书简", "Xingkai SC", "STXingkai", "LXGW WenKai", "Kaiti SC", "KaiTi", "cursive"],
+      "pptx": {"mac": "Xingkai SC", "win": "STXingkai", "original": "全新硬笔行书简"}
+    },
+    "serif-en": {
+      "desc": "英文衬线标题/数字",
+      "css": ["Playfair Display", "Didot", "Baskerville", "Times New Roman", "Georgia", "serif"],
+      "pptx": {"mac": "Didot", "win": "Times New Roman", "original": "Times New Roman"}
+    },
+    "script-en": {
+      "desc": "英文斜体副标：斜体衬线（商业字体 313-CAI978 可通过 original 方案使用）",
+      "css": ["313-CAI978", "Baskerville", "Georgia", "serif"],
+      "italic": true,
+      "pptx": {"mac": "Baskerville", "win": "Georgia", "original": "313-CAI978"}
+    },
+    "sans-en": {
+      "desc": "英文无衬线：索引、页眉页脚、瑞士风标题",
+      "css": ["Inter", "Helvetica Neue", "Helvetica", "Arial", "PingFang SC", "sans-serif"],
+      "pptx": {"mac": "Helvetica Neue", "win": "Arial", "original": "Microsoft YaHei UI"}
+    },
+    "mono": {
+      "desc": "等宽小字：编号、kicker",
+      "css": ["IBM Plex Mono", "JetBrains Mono", "SF Mono", "Menlo", "Consolas", "monospace"],
+      "pptx": {"mac": "Menlo", "win": "Consolas", "original": "IBM Plex Mono"}
+    },
+    "display-zh": {
+      "desc": "中文粗宋展示字：A 杂志刊头、B 海报中文大字（宋体 Black 字重）",
+      "css": ["Songti SC", "STSong", "Noto Serif SC", "SimSun", "serif"],
+      "weight": 900,
+      "pptx": {"mac": "Songti SC", "win": "SimSun", "original": "方正大标宋简体"}
+    },
+    "light-zh": {
+      "desc": "中文细宋：C 展签、F 专访正文（宋体 Light）",
+      "css": ["Songti SC", "STSong", "Noto Serif SC", "SimSun", "serif"],
+      "weight": 300,
+      "pptx": {"mac": "Songti SC", "win": "SimSun", "original": "方正书宋简体"}
+    },
+    "bold-zh": {
+      "desc": "中文粗黑：B 瑞士海报中文标题（苹方 Semibold）",
+      "css": ["PingFang SC", "Source Han Sans SC", "Noto Sans SC", "Microsoft YaHei", "sans-serif"],
+      "weight": 600,
+      "pptx": {"mac": "PingFang SC", "win": "Microsoft YaHei", "original": "方正兰亭粗黑_GBK"}
+    },
+    "kai-zh": {
+      "desc": "中文楷体：F 人物签名与金句",
+      "css": ["Kaiti SC", "STKaiti", "LXGW WenKai", "KaiTi", "serif"],
+      "pptx": {"mac": "Kaiti SC", "win": "KaiTi", "original": "方正楷体简体"}
+    },
+    "wei-zh": {
+      "desc": "中文魏碑：F 人物专访大标题（刚劲、有碑刻感）",
+      "css": ["Weibei SC", "STWeibei", "Kaiti SC", "KaiTi", "serif"],
+      "pptx": {"mac": "Weibei SC", "win": "KaiTi", "original": "方正魏碑简体"}
+    },
+    "round-zh": {
+      "desc": "中文圆体：D 品牌手册的柔和标题",
+      "css": ["Yuanti SC", "STYuanti", "Source Han Rounded SC", "Microsoft YaHei", "sans-serif"],
+      "weight": 300,
+      "pptx": {"mac": "Yuanti SC", "win": "Microsoft YaHei", "original": "方正准圆简体"}
+    },
+    "didone-en": {
+      "desc": "英文高反差现代衬线：A 杂志刊头、C 作品集编号（Bodoni）",
+      "css": ["Bodoni 72", "Bodoni Moda", "Didot", "Times New Roman", "serif"],
+      "pptx": {"mac": "Bodoni 72", "win": "Bodoni MT", "original": "Bodoni 72"}
+    },
+    "didot-en": {
+      "desc": "英文 Didot：C 作品集超大细体编号与标题",
+      "css": ["Didot", "Bodoni 72", "Playfair Display", "serif"],
+      "pptx": {"mac": "Didot", "win": "Bodoni MT", "original": "Didot"}
+    },
+    "geo-en": {
+      "desc": "英文几何无衬线：D 品牌手册（Futura）",
+      "css": ["Futura", "Century Gothic", "Avenir Next", "sans-serif"],
+      "pptx": {"mac": "Futura", "win": "Century Gothic", "original": "Futura"}
+    },
+    "helv-black": {
+      "desc": "Helvetica 粗体：B 瑞士海报超大数字与英文标题",
+      "css": ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+      "weight": 700,
+      "pptx": {"mac": "Helvetica Neue", "win": "Arial Black", "original": "Helvetica Neue"}
+    },
+    "helv-thin": {
+      "desc": "Helvetica 极细：B 瑞士海报的细体对比字",
+      "css": ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+      "weight": 200,
+      "pptx": {"mac": "Helvetica Neue UltraLight", "win": "Arial", "original": "Helvetica Neue UltraLight"}
+    },
+    "condensed-en": {
+      "desc": "英文窄体：C/A 的小号大写标签",
+      "css": ["Avenir Next Condensed", "Helvetica Neue", "Arial Narrow", "sans-serif"],
+      "weight": 500,
+      "pptx": {"mac": "Avenir Next Condensed", "win": "Arial Narrow", "original": "Avenir Next Condensed"}
+    }
+  },
+  "aliases": {
+    "方正书宋简体": "serif-zh",
+    "经典标宋简": "serif-zh",
+    "方正明尚简体": "serif-zh",
+    "方正兰亭细黑_GBK_M": "sans-zh",
+    "Microsoft YaHei UI": "sans-en",
+    "全新硬笔行书简": "script-zh",
+    "313-CAI978": "script-en",
+    "Times New Roman": "serif-en"
+  }
+}

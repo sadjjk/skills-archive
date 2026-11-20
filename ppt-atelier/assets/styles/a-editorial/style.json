@@ -1,0 +1,38 @@
+{
+  "id": "a-editorial",
+  "code": "A",
+  "name": "人文时尚杂志",
+  "name_en": "EDITORIAL MAGAZINE",
+  "keywords": [
+    "Bodoni 刊头",
+    "黑白摄影",
+    "首字下沉"
+  ],
+  "best_for": [
+    "演讲分享",
+    "行业观察/方法论",
+    "电子杂志式长叙事"
+  ],
+  "source": "样例「NOIR 墨刊 · 慢阅读的复兴」10 页，Unsplash 黑白摄影（photos/CREDITS.md），版式由 scripts/make_a_example.py 生成",
+  "palette": {
+    "paper": "#F3F0EA",
+    "ink": "#111111",
+    "grey": "#6E6A63",
+    "rule": "#C9C3B8",
+    "red": "#B3261E"
+  },
+  "fonts": {
+    "masthead": "didone-en",
+    "heading": "display-zh",
+    "body": "light-zh",
+    "label": "condensed-en",
+    "sign": "kai-zh"
+  },
+  "grid": {
+    "margin_x": 64,
+    "margin_top": 34,
+    "safe_margin": 40,
+    "footer_y": 676
+  },
+  "backgrounds": "photos/"
+}

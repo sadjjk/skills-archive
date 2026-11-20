@@ -1,0 +1,8 @@
+# 本地凭据与产物一律不入库
+.DS_Store
+config.json
+.env
+__pycache__/
+*.pyc
+*.pptx
+**/examples/out/

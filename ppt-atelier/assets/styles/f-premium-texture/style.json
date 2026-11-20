@@ -1,0 +1,41 @@
+{
+  "id": "f-premium-texture",
+  "code": "F",
+  "name": "人物专访式个人介绍",
+  "name_en": "PROFILE INTERVIEW",
+  "keywords": [
+    "魏碑楷体",
+    "问答体",
+    "毛玻璃人像"
+  ],
+  "best_for": [
+    "个人介绍",
+    "讲师/设计师简介",
+    "高端服务/生活方式介绍"
+  ],
+  "source": "样例「林知夏 · 个人介绍」10 页，Unsplash 人像与静物（photos/CREDITS.md），版式由 scripts/make_f_example.py 生成",
+  "palette": {
+    "paper": "#EFEAE1",
+    "ink": "#1F1B17",
+    "soft": "#4E463D",
+    "muted": "#8C8174",
+    "rule": "#C9BFAE",
+    "ochre": "#A0612F",
+    "dark": "#1C1915",
+    "cream": "#F5F0E7"
+  },
+  "fonts": {
+    "heading": "wei-zh",
+    "sign": "kai-zh",
+    "body": "light-zh",
+    "english": "script-en",
+    "index": "sans-en"
+  },
+  "grid": {
+    "margin_x": 64,
+    "margin_top": 36,
+    "safe_margin": 40,
+    "footer_y": 670
+  },
+  "backgrounds": "photos/"
+}

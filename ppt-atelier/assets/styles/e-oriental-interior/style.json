@@ -1,0 +1,27 @@
+{
+  "id": "e-oriental-interior",
+  "code": "E",
+  "name": "新中式室内摄影",
+  "name_en": "ORIENTAL INTERIOR",
+  "keywords": ["暖金光影", "材质", "东方空间"],
+  "best_for": ["新中式空间提案", "养生馆/茶空间/酒店", "文旅与东方生活方式品牌"],
+  "source": "样例「栖隐 · 东方静养空间」12 页，照片来自 Unsplash（见 photos/CREDITS.md），版式由 scripts/make_e_example.py 生成",
+  "palette": {
+    "ink": "#392B20",
+    "ink-soft": "#60472F",
+    "body-dark": "#514331",
+    "gold": "#E2C99C",
+    "paper": "#F4EDE0",
+    "paper-soft": "#E2D6C0",
+    "deep": "#1E1712"
+  },
+  "fonts": {
+    "heading": "serif-zh",
+    "subheading": "sans-zh",
+    "accent-zh": "script-zh",
+    "english": "script-en",
+    "index": "sans-en"
+  },
+  "grid": {"margin_x": 80, "margin_top": 44, "safe_margin": 40, "footer_y": 668},
+  "backgrounds": "photos/"
+}

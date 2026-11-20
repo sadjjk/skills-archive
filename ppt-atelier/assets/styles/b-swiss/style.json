@@ -1,0 +1,43 @@
+{
+  "id": "b-swiss",
+  "code": "B",
+  "name": "瑞士国际主义海报",
+  "name_en": "SWISS INTERNATIONAL",
+  "keywords": [
+    "克莱因蓝色面",
+    "出血大数字",
+    "12 列网格"
+  ],
+  "best_for": [
+    "数据汇报",
+    "产品/技术发布",
+    "方法论与流程说明"
+  ],
+  "source": "样例「Q3 增长报告」10 页，Unsplash 几何建筑（photos/CREDITS.md），版式由 scripts/make_b_example.py 生成",
+  "palette": {
+    "ikb": "#002FA7",
+    "ink": "#0A0A0A",
+    "paper": "#F4F4F2",
+    "white": "#FFFFFF",
+    "grey": "#6F6F6F",
+    "light": "#E6E6E3"
+  },
+  "fonts": {
+    "heading": "bold-zh",
+    "english": "helv-black",
+    "english-thin": "helv-thin",
+    "kpi": "helv-thin",
+    "body": "sans-zh",
+    "index": "mono"
+  },
+  "grid": {
+    "columns": 12,
+    "column_width": 80,
+    "gutter": 8,
+    "margin_x": 64,
+    "margin_top": 32,
+    "safe_margin": 40,
+    "footer_y": 672
+  },
+  "backgrounds": "photos/"
+}
